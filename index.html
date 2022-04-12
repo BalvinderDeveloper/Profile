@@ -32,66 +32,52 @@
                 
                 
             }
-            .mid{
+            #mid{
                 border-top-left-radius: 20px;
                 border-bottom-right-radius: 20px ;
                
                 background-size: 70% 280px;
                 color: rgb(9, 119, 59);
           
-                margin-right: 250px;
+                 
                 border-right: 6px double lightgreen;
                 font-family: " ink free";
                 font-size: 20px;
             } 
-            .mid1{   border-top-left-radius: 20px;
+            #mid1{   border-top-left-radius: 20px;
                 border-bottom-right-radius: 20px ;
                 
                 background-size: 70% 280px;
                 color: lightblue;
-                margin-left: 50px;
-                margin-right: 200px;
+                 
+                
                 border-right: 6px double lightblue;
                 font-family:  ink free;
                 font-size: 20px;
             }
-             .mid2{   border-top-left-radius: 20px;
+             #mid2{   border-top-left-radius: 20px;
                 border-bottom-right-radius: 20px ;
                 
                 background-size: 70% 280px;
                 color: rgb(252, 113, 0);
-                margin-left: 100px;
-                margin-right: 150px;
+                 
+            
                 border-right: 6px double rgb(253, 148, 61);
                 font-family:  ink free;
                 font-size: 20px;
             }
-             .mid3{   border-top-left-radius: 20px;
+             #mid3{   border-top-left-radius: 20px;
                 border-bottom-right-radius: 20px ;
                 
                 background-size: 70% 280px;
                 color: rgb(255, 1, 213);
-                margin-left: 150px;
-                margin-right: 100px;
+               
+               
                 border-right: 6px double rgb(230, 173, 213);
                 font-family:  ink free;
                 font-size: 20px;
             }
-            footer{
-                margin-top: 100px;
-                  margin-left: 200px;
-                  background-color: rgba(64, 134, 143, 0.555);
-           
-                background-size: 70% 280px;
-                color: rgb(18, 0, 82);
-          
-                margin-right: 200px;
-                border-right: 6px double rgb(255, 0, 0);
-                border-left: 6px double rgb(251, 255, 0);
-                font-family:  ink free;
-                font-size: 25px;
-
-            }  
+            
              h1{
                  text-decoration: underline;
              }
@@ -101,6 +87,20 @@
                 border: 5px dashed burlywood;
 
              }
+             footer{
+                margin-top: 100px;
+              
+                  background-color: rgba(64, 134, 143, 0.555);
+           
+                
+                color: rgb(18, 0, 82);
+           
+                border-right: 6px double rgb(255, 0, 0);
+                border-left: 6px double rgb(251, 255, 0);
+                font-family:  ink free;
+                font-size: 25px;
+
+            }  
         
 
 
@@ -108,24 +108,18 @@
 
     </head>
     <body  ><center> 
-       <div class="top">
-           <table>
-               <tr>
-                   <td>
-                    <img class="i1" src="D:\ihone\IMG_5702.JPG" alt="myphoto"  style="margin-left: 20px;" >
-                   </td>
-                   <td>
-                    <h2 style="margin-left: 60px;">
-                        &nbsp;&nbsp;&nbsp;  &#9812; &#8492;alvinder Singh Khalsa
-                    </h2>
-                    
-                   </td>
-               </tr>
-           </table>
-        
+       <div id="top" class="row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <img class="i1" style="float:right;" src="photo_2022-04-12_20-21-17.jpg" alt="myphoto"   >
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3" id="name">
+            <h2 style="margin-top: 50px; float: left; text-align: center;"> 
+                  &#9812; &#8492;alvinder Singh Khalsa
+            </h2>
+        </div>
     </div>
    
-    <div class="mid">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12" id="mid">
         <h1>
             About Myself
         </h1>
@@ -136,16 +130,17 @@
     
 
     </div>
-    <div class="mid1">
+    <div id="mid1"  class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-xs-12">
         <h1>
             Qualification
         
+
         </h1>
         &#9758; 10<sup>th</sup> Passed with 8.0CGPA<br>
         &#9758; 12<sup>th</sup> Passed with 86%<br>
         &#9758; B.Sc. (PCM) Pursuing 2nd year<br>
     </div>
-    <div class="mid2">
+    <div  class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12" id="mid2">
         <p>
             <h1>
                 Skills
@@ -156,7 +151,7 @@
               
        </p>
     </div>
-   <div class="mid3"> 
+   <div  class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-xs-12" id="mid3"> 
        <p>
            <h1>
                Hobbies
@@ -174,13 +169,17 @@
             Project
         </h1>
         <div class="row" id="r1">
-            <div class="col-6">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                
                 <a href="https://balvinderdeveloper.github.io/responsivehome/">
+                    <h1>DeLscious</h1>
                     <img class="img-fluid img-thumbnail" src="https://i.ibb.co/44KmtbT/Screenshot-13.png" alt="Delscius">
                 </a>
             </div>
-            <div class="col-6">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                
                 <a href="https://balvinderdeveloper.github.io/DOCUMENT.TANISHQ/">
+                    <h1>TanishQ</h1>
                     <img class="img-fluid img-thumbnail" src="https://i.ibb.co/sPN1J9T/Screenshot-12.png" " alt="Tanishq">
                 </a>
             </div>
@@ -192,14 +191,25 @@
         <h1>
             Google Maps
         </h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27946.088846150775!2d79.556248!3d28.890588100000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1645713715072!5m2!1sen!2sin"    allowfullscreen="" loading="lazy"></iframe>       
-    <footer>
-        &copy; BalvinderDeveloper<br><br>
-          <a href="https://twitter.com/Balvind42013842" target="_blank"><img src="C:\Users\dell\Desktop\fullstackdeveloper\img\alexander-shatov-k1xf2D7jWUs-unsplash.jpg" height="50px"></a>
-        <a href="https://www.instagram.com/balvindersingh1984/" target="_blank"><img src="C:\Users\dell\Desktop\fullstackdeveloper\img\alexander-shatov-71Qk8ODIBko-unsplash.jpg"  height="50px"></a>
-        <a href="https://www.linkedin.com/in/balvinder-singh-a1b69222a/" target="_blank"><img src="C:\Users\dell\Desktop\fullstackdeveloper\img\alexander-shatov-9Zjd7PE_FRM-unsplash.jpg" height="50px"  ></a>
-
-    </footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27946.088846150775!2d79.556248!3d28.890588100000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1645713715072!5m2!1sen!2sin"    allowfullscreen="" loading="lazy"></iframe>  
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3  "></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                 <center>
+                    <footer>
+        
+                        &copy; BalvinderDeveloper<br><br>
+                          <a href="https://twitter.com/Balvind42013842" target="_blank"> <img src="https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHdpdHRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt=" twitter"height="50px"   > 
+                          </a>
+                        <a href="https://www.instagram.com/balvindersingh1984/" target="_blank"><img src="https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5zdGFncmFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" height="50px"  alt="instagram">
+                        </a>
+                        <a href="https://www.linkedin.com/in/balvinder-singh-a1b69222a/" target="_blank"><img src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGlua2VkaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" height="50px"  ></a>
+                
+                        </footer>
+                 </center>
+            </div>
+        </div>     
+   
     </body>
 
 </html>
