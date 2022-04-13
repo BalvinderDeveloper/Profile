@@ -85,8 +85,52 @@
                 width: 100%;
                 height: 250px;
                 border: 5px dashed burlywood;
-
              }
+   .cs{
+    position:relative;
+ 
+}
+ 
+  
+  #image {
+    display: block;
+ 
+  }
+  
+             
+    .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000c9;
+  }
+  
+  .cs:hover .overlay{
+    opacity: 1;
+  }
+  
+  .text{
+    
+        color: rgb(0, 255, 221);
+        position: absolute;
+       font-family:"Lucida Calligraphy" ;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 110px;
+  }
+.text>h3{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.text>p{
+    font-size: 14px;
+}
              footer{
                 margin-top: 100px;
               
@@ -172,15 +216,38 @@
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 
                 <a href="https://balvinderdeveloper.github.io/responsivehome/">
-                    <h1>DeLscious</h1>
-                    <img class="img-fluid img-thumbnail" src="https://i.ibb.co/44KmtbT/Screenshot-13.png" alt="Delscius">
+                    
+                    <div class="cs">
+                        <img class="img-fluid img-thumbnail " id="image" src="https://i.ibb.co/44KmtbT/Screenshot-13.png" alt="Delscius">
+                        <div class="overlay">
+                            <div class="text">
+                                     <h3>DeLuscious </h3>
+                                <p>  This is my first Project. Online food order Website i.e. DeLuscious. Just order it!
+                                     </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
                 </a>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 
                 <a href="https://balvinderdeveloper.github.io/DOCUMENT.TANISHQ/">
-                    <h1>TanishQ</h1>
-                    <img class="img-fluid img-thumbnail" src="https://i.ibb.co/sPN1J9T/Screenshot-12.png" " alt="Tanishq">
+                    
+                    <div class="cs">
+                        <img class="img-fluid img-thumbnail " id="image" src="https://i.ibb.co/sPN1J9T/Screenshot-12.png" alt="Tanqish">
+                        <div class="overlay">
+                            <div class="text">
+                                     <h3>TanishQ </h3>
+                                <p>This is my Second Project .It is An Indian Jewellery Brand and a Division of Titan Company
+
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
                 </a>
             </div>
         </div>
